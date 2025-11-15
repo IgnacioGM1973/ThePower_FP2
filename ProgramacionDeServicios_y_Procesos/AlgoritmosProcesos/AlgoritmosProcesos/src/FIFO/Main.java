@@ -9,7 +9,19 @@ public class Main {
 
         int n;
         System.out.println("Introduzca el número de procesos: ");
-        n = scn.nextInt();
+        n = scn.nextInt();  //Lee cuantos procesos vas a gestionar.
+
+        // Creamos Arrays para  n procesos.
+
+        int [] llegada = new int[n];// tiempo de llegada de cada proceso
+        int [] rafaga = new int[n];// tiempo de CPU que necesita un proceso
+        int [] finalizacion = new int[n]; // Instante de finalización de un proceso
+        int [] retorno = new int[n];// ráfaga  - llegada
+        int [] espera = new int[n]; // tiempo que espera un proceso - tiempo de llegada
+
+        // Entrada de datos proceso.
+
+
 
 
 
